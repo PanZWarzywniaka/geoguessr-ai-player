@@ -4,7 +4,7 @@
 
 ## Introduction
 
-[GeoGuessr](https://www.geoguessr.com/) is a geographical game where players are presented random location from street view imaginary and need to guess its location. To achieve this players need to use their geographical knowledge to infere location-specific hints: language, soil type etc. and then pinpoint their guess on the map.
+[GeoGuessr](https://www.geoguessr.com/) is a geographical game where players are presented random street view imaginary and the goal is to guess its location. To achieve this players need to use their geographical knowledge to infere location-specific hints: language, soil type etc. and then pinpoint their guess on the map.
 
 ## Goal
 
@@ -12,7 +12,7 @@ The goal of this project is to create ML model for image classification to their
 
 ## Technologies and libraries
 
-- Python 3.10 +
+- Python 3.10+
 - Tensorflow 2.10
 - Matplotlib 3.6
 - JS (web extension)
