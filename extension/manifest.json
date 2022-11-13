@@ -1,0 +1,20 @@
+{
+  "name": "Geoguesser AI Extension",
+  "description": "Screen Shotter",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "persistent": true,
+      "js": ["content_scripts/content.js"],
+      "matches": [
+        "https://www.geoguessr.com/*"
+      ]
+    }
+  ]
+}
