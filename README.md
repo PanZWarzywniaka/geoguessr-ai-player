@@ -21,6 +21,6 @@ The goal of this project is to create ML model for image classification to their
 
 - [x] Create script that gathers raw images, and their locations from [GeoGuessr](https://www.geoguessr.com/)
 - [x] Collect initial training set
-- [ ] Create basic sequencial model that would classified images to countries
+- [X] Create basic sequencial model that would classified images to countries
 - [ ] Create model that would classify images with better accuracy by dividing world map into smaller regions
 - [ ] Use reinforcement learning to constantly improve the model based on geoguessr points rewarded
